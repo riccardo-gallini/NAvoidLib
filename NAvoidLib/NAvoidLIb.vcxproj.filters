@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="libavoid">
+      <UniqueIdentifier>{2ae42c76-b63a-47de-9793-674c637ab579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NAvoid">
+      <UniqueIdentifier>{5253feef-e164-4e00-a6b3-0c4935729027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{23d5e5c8-5539-427c-82e6-f7a3bde4e263}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libavoid\connectionpin.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="libavoid\connector.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="libavoid\connend.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="libavoid\geometry.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="libavoid\geomtypes.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="libavoid\graph.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="libavoid\hyperedge.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="libavoid\hyperedgeimprover.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="libavoid\hyperedgetree.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="libavoid\junction.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="libavoid\makepath.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="libavoid\mtst.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="libavoid\obstacle.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="libavoid\orthogonal.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="libavoid\router.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="libavoid\scanline.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="libavoid\shape.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="libavoid\timer.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="libavoid\vertices.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="libavoid\viscluster.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="libavoid\visibility.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="libavoid\vpsc.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="libavoid\actioninfo.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="router_wrap.cpp">
+      <Filter>NAvoid</Filter>
+    </ClCompile>
+    <ClCompile Include="shaperef_wrap.cpp">
+      <Filter>NAvoid</Filter>
+    </ClCompile>
+    <ClCompile Include="point_wrap.cpp">
+      <Filter>NAvoid</Filter>
+    </ClCompile>
+    <ClCompile Include="checkpoint_wrap.cpp">
+      <Filter>NAvoid</Filter>
+    </ClCompile>
+    <ClCompile Include="connector_wrap.cpp">
+      <Filter>NAvoid</Filter>
+    </ClCompile>
+    <ClCompile Include="router_factory.cpp">
+      <Filter>NAvoid</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libavoid\actioninfo.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="libavoid\assertions.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="libavoid\connectionpin.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="libavoid\connector.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="libavoid\connend.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="libavoid\debug.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="libavoid\debughandler.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="libavoid\dllexport.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="libavoid\geometry.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="libavoid\geomtypes.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="libavoid\graph.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="libavoid\hyperedge.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="libavoid\hyperedgeimprover.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="libavoid\hyperedgetree.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="libavoid\junction.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="libavoid\libavoid.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="libavoid\makepath.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="libavoid\mtst.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="libavoid\obstacle.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="libavoid\orthogonal.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="libavoid\router.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="libavoid\scanline.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="libavoid\shape.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="libavoid\timer.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="libavoid\vertices.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="libavoid\viscluster.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="libavoid\visibility.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="libavoid\vpsc.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="router_wrap.h">
+      <Filter>NAvoid</Filter>
+    </ClInclude>
+    <ClInclude Include="shaperef_wrap.h">
+      <Filter>NAvoid</Filter>
+    </ClInclude>
+    <ClInclude Include="router_enums.h">
+      <Filter>NAvoid</Filter>
+    </ClInclude>
+    <ClInclude Include="connector_wrap.h">
+      <Filter>NAvoid</Filter>
+    </ClInclude>
+    <ClInclude Include="point_wrap.h">
+      <Filter>NAvoid</Filter>
+    </ClInclude>
+    <ClInclude Include="checkpoint_wrap.h">
+      <Filter>NAvoid</Filter>
+    </ClInclude>
+    <ClInclude Include="router_factory.h">
+      <Filter>NAvoid</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NAvoid.cd">
+      <Filter>NAvoid</Filter>
+    </None>
+  </ItemGroup>
+</Project>

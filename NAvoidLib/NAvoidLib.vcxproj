@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{335CBC29-90A9-4F86-A9F1-98712CA3AE6B}</ProjectGuid>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>NAvoidLib</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>NAvoidLib</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v90</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>
+    </CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <EnableManagedIncrementalBuild>false</EnableManagedIncrementalBuild>
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ShowIncludes>true</ShowIncludes>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+      <GenerateXMLDocumentationFiles>true</GenerateXMLDocumentationFiles>
+      <StringPooling>true</StringPooling>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <StringPooling>true</StringPooling>
+      <GenerateXMLDocumentationFiles>true</GenerateXMLDocumentationFiles>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="checkpoint_wrap.cpp" />
+    <ClCompile Include="connector_wrap.cpp" />
+    <ClCompile Include="libavoid\actioninfo.cpp" />
+    <ClCompile Include="libavoid\connectionpin.cpp" />
+    <ClCompile Include="libavoid\connector.cpp" />
+    <ClCompile Include="libavoid\connend.cpp" />
+    <ClCompile Include="libavoid\geometry.cpp" />
+    <ClCompile Include="libavoid\geomtypes.cpp" />
+    <ClCompile Include="libavoid\graph.cpp" />
+    <ClCompile Include="libavoid\hyperedge.cpp" />
+    <ClCompile Include="libavoid\hyperedgeimprover.cpp" />
+    <ClCompile Include="libavoid\hyperedgetree.cpp" />
+    <ClCompile Include="libavoid\junction.cpp" />
+    <ClCompile Include="libavoid\makepath.cpp" />
+    <ClCompile Include="libavoid\mtst.cpp" />
+    <ClCompile Include="libavoid\obstacle.cpp" />
+    <ClCompile Include="libavoid\orthogonal.cpp" />
+    <ClCompile Include="libavoid\router.cpp" />
+    <ClCompile Include="libavoid\scanline.cpp" />
+    <ClCompile Include="libavoid\shape.cpp" />
+    <ClCompile Include="libavoid\timer.cpp" />
+    <ClCompile Include="libavoid\vertices.cpp" />
+    <ClCompile Include="libavoid\viscluster.cpp" />
+    <ClCompile Include="libavoid\visibility.cpp" />
+    <ClCompile Include="libavoid\vpsc.cpp" />
+    <ClCompile Include="point_wrap.cpp" />
+    <ClCompile Include="router_factory.cpp" />
+    <ClCompile Include="router_wrap.cpp" />
+    <ClCompile Include="shaperef_wrap.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="checkpoint_wrap.h" />
+    <ClInclude Include="connector_wrap.h" />
+    <ClInclude Include="point_wrap.h" />
+    <ClInclude Include="router_enums.h" />
+    <ClInclude Include="libavoid\actioninfo.h" />
+    <ClInclude Include="libavoid\assertions.h" />
+    <ClInclude Include="libavoid\connectionpin.h" />
+    <ClInclude Include="libavoid\connector.h" />
+    <ClInclude Include="libavoid\connend.h" />
+    <ClInclude Include="libavoid\debug.h" />
+    <ClInclude Include="libavoid\debughandler.h" />
+    <ClInclude Include="libavoid\dllexport.h" />
+    <ClInclude Include="libavoid\geometry.h" />
+    <ClInclude Include="libavoid\geomtypes.h" />
+    <ClInclude Include="libavoid\graph.h" />
+    <ClInclude Include="libavoid\hyperedge.h" />
+    <ClInclude Include="libavoid\hyperedgeimprover.h" />
+    <ClInclude Include="libavoid\hyperedgetree.h" />
+    <ClInclude Include="libavoid\junction.h" />
+    <ClInclude Include="libavoid\libavoid.h" />
+    <ClInclude Include="libavoid\makepath.h" />
+    <ClInclude Include="libavoid\mtst.h" />
+    <ClInclude Include="libavoid\obstacle.h" />
+    <ClInclude Include="libavoid\orthogonal.h" />
+    <ClInclude Include="libavoid\router.h" />
+    <ClInclude Include="libavoid\scanline.h" />
+    <ClInclude Include="libavoid\shape.h" />
+    <ClInclude Include="libavoid\timer.h" />
+    <ClInclude Include="libavoid\vertices.h" />
+    <ClInclude Include="libavoid\viscluster.h" />
+    <ClInclude Include="libavoid\visibility.h" />
+    <ClInclude Include="libavoid\vpsc.h" />
+    <ClInclude Include="router_factory.h" />
+    <ClInclude Include="router_wrap.h" />
+    <ClInclude Include="shaperef_wrap.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NAvoid.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
